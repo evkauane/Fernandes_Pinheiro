@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .principal{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/Fernandes\ Pinheiro.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header .menu{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    position:static;
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+ a{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+
+
+header .menu .ativo, a:hover{
+    color:#444;
+    background-color: white;
+ }
+
+.principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal h2{
+    color: white;
+    font-size: 45px;
+}
+
+.principal .links a{
+    color: white;
+    padding: 10px 18px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.principal .links a:hover{
+    color: #444;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(176, 195, 218);
+}
+
+.cmsurgiu{
+    border:10px solid;
+    margin:70px;
+    padding:80px;
+    font-style: oblique;
+}
+
+.pfts{
+   font-style: oblique;
+   border:10px solid;
+   margin:70px;
+   padding:80px;
+}
+
+.dois{
+    margin-top: 70px;
+}
+
+.fts{
+    font-style: oblique;
+   border:10px solid;
+   margin:70px;
+   padding:80px;
+}
+
+.ms{
+    font-style: oblique;
+    border:10px solid;
+    margin:70px;
+    padding:80px
+}
